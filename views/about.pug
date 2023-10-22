@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts
+    link(rel='stylesheet', href='../static/styles.css')
+
+block style
+    style
+        include ../static/styles.css
+
+block content
+    // Page Header
+    header.masthead(style="background-image: url('../static/assets/img/about-bg.jpg')")
+        div.container.position-relative.px-4.px-lg-5
+            div.row.gx-4.gx-lg-5.justify-content-center
+                div.col-md-10.col-lg-8.col-xl-7
+                    div.page-heading
+                        h1 Who is Saharsh
+                        span.subheading Who am I.
+    
+    // Main Content
+    main.mb-4
+        div.container.px-4.px-lg-5
+            div.row.gx-4.gx-lg-5.justify-content-center
+                div.col-md-10.col-lg-8.col-xl-7
+                    p I am Saharsh Gupta, a third year college student pursuing my bachelor's degree in Aerospace Engineering. I have views and opinions that I want to be heard. I am very open about everything.
+                    p My interests are Space Technology, Aeronautics, politics, psychology, and... pretty much everything. Yes, you heard right, I really like everything and want to further expand my view on the world and beyond.
+                    p I like truth, which I like to find.
+                    p If you want to know more about me, you can have my 
+                        a(href="../static/SaharshGuptaVITBhopalAero.pdf" download) resume.
